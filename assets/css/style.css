@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100%;
+    border: 2px solid #e9d307;
+}
+
+/**#0bbc0e**/
